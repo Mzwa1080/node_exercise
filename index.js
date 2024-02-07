@@ -11,3 +11,8 @@ fs.writeFile('division.js', 'i believe in you',function (err) {
   });
 
 
+let {multiplication} = require('./multiplication')
+let {division} = require('./division')
+
+console.log(multiplication(2,3));
+console.log(division(2,1));

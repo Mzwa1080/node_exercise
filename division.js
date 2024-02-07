@@ -1,1 +1,5 @@
-i believe in you
+// i believe in you
+
+exports.division=(a,b)=>{
+    return a/b;
+}
